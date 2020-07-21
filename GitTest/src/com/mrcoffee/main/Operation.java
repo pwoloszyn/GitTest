@@ -3,6 +3,8 @@ package com.mrcoffee.main;
 import java.util.Random;
 
 public class Operation {
+	
+	//Basic operations
 
 	public static int random() {
 		long seed = System.currentTimeMillis();
