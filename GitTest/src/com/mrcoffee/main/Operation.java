@@ -1,0 +1,13 @@
+package com.mrcoffee.main;
+
+import java.util.Random;
+
+public class Operation {
+
+	public static int random() {
+		long seed = System.currentTimeMillis();
+		Random rnd = new Random(seed);
+		return rnd.nextInt(10) + 1;
+	}
+	
+}
