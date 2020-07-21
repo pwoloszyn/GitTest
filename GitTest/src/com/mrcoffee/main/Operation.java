@@ -10,4 +10,6 @@ public class Operation {
 		return rnd.nextInt(20) + 3;
 	}
 	
+	public static void empty() {}
+	
 }
